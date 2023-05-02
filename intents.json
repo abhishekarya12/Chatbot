@@ -1,0 +1,186 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for asking",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            "I am a bharati vidyapeeth bot,I can help you for these following queries:- \n1.Admission_procedure \n2.Course_offered \n3.Faculty_details\n4.campus_facilities \n5.placement \n6.fee_structure\n7.contact_information \n8.College_Location\n9.Website_Information"
+         ],
+         "context":[
+            ""
+         ]
+      },
+         {
+            "tag": "Admission_procedure",
+            "patterns": [
+             "What is the admission procedure at Bharati Vidyapeeth?", 
+             "How to apply for bharati vidyapeeth?"
+         ],
+            "responses": ["The admission procedure at Bharati Vidyapeeth varies depending on the course you are applying for. Could you please specify the course?"],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "course_offered",
+            "patterns": ["what are the courses offered?","How many courses are there","Name the courses"],
+            "responses": ["Courses offered:-\n1.B.Tech\n2.MBBS (Bachelor of Medicine and Bachelor of Surgery)\n3.BDS (Bachelor of Dental Surgery)\n4.BA\n5.BBA\n6.B.Sc\n7B.Arch (Bachelor of Architecture)\n8.BAMS (Bachelor of Ayurvedic Medicine and Surgery\n for more details about courses visit 'https://www.bvuniversity.edu.in/programmes' this site"],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "faculty_details",
+            "patterns": ["Tell me about faculty","faculty details"],
+            "responses": ["We have a highly qualified and experienced faculty at Bharati Vidyapeeth College of Engineering. They specialize in different domains and are dedicated to providing quality education."],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "campus_facilities",
+            "patterns": ["campus facilities", "amenities", "college infrastructure"],
+            "responses": ["Our college campus provides various facilities including a well-equipped library, state-of-the-art laboratories, spacious classrooms, sports facilities, hostel accommodation, and a cafeteria."],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "placement",
+            "patterns": ["placements", "job opportunities", "career prospects"],
+            "responses": ["We have a dedicated placement cell that works towards providing placement opportunities for our students. Our college has collaborations with renowned companies, and we organize placement drives and training programs to enhance students' employability skills."],
+            "context":[
+               ""
+            ]
+         },
+          {
+            "tag": "fee_structure",
+            "patterns": ["fees structure", "tuition fees", "payment details"],
+            "responses": ["The fees structure for our courses varies. Please visit our college's website(https://www.bvuniversity.edu.in/) or contact the admissions office for detailed information on the tuition fees and payment details."],
+            "context":[
+               ""
+            ]
+      },
+      {
+         "tag":"python_is_best",
+         "patterns":[
+            "Which is the best programming language?",
+            "Can you tell me the best language ever?",
+            "What language can I start for programming",
+            "Is Python language an awesome language?",
+            "I am a beginner and I need to learn a new language"
+         ],
+         "responses":[
+            "Without a doubt, Python is the most BEAUTIFUL language ever! You can start learning it anytime",
+            "I am a fan of Python. It's my favorite ever. If you don't believe me, try it yourself"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"contact_information",
+         "patterns":["contact information", "phone number", "email address"],
+         "responses":["For any queries, you can contact our admissions office at +91-20-24407100 or send an email to admissions@bharatividyapeeth.edu."],
+         "context":[
+            ""
+         ]
+      },
+      {
+            "tag": "website_informtion",
+            "patterns": ["college website", "official website", "website link"],
+            "responses": ["You can visit our college's official website at 'www.bharatividyapeeth.edu' for more information about the courses, admissions, faculty, facilities, and other details."],
+            "context": [""]
+      },
+      {
+            "tag": "college_location",
+            "patterns": ["college location", "address", "directions"],
+            "responses": ["Bharati Vidyapeeth College of Engineering is located at ABC Road, Pune, Maharashtra, India. You can find the detailed address and directions on our college's website."],
+            "context": [""]
+                  
+      },
+      {
+         "tag": "bvcoe_courses",
+         "patterns": ["What courses are available at Bharati Vidyapeeth College of Engineering Pune (BVCOE)?", "Tell me about the courses at BVCOE"],
+         "responses": ["Bharati Vidyapeeth College of Engineering Pune (BVCOEP) offers various courses including:\n1. Bachelor of Engineering (B.E.) in Civil Engineering\n2. B.E. in Mechanical Engineering\n3. B.E. in Computer Engineering\n4. B.E. in Information Technology\n5. B.E. in Electronics and Telecommunication Engineering\n6.B.E in Electronics and communication Engineering\nFor detailed fee structure, you can visit the official website of BVCOEP (Https://www.bvuniversity.edu.in)."],
+         "context": [""]
+       }
+       
+   ]
+}
